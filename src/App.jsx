@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>TO-DO Lista de Tarefas</h1>
+      <h1>TO-DO Gerenciador Tarefas</h1>
       <FormTarefa adicionarTarefa={adicionarTarefa} />
       <ListaTarefas
         tarefas={tarefas}
