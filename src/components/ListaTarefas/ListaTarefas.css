@@ -1,0 +1,39 @@
+.lista-tarefas {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .tarefa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f8ff; /* Tom de azul claro */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  .tarefa.concluida {
+    text-decoration: line-through;
+    opacity: 0.7;
+  }
+  
+  .tarefa span {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .tarefa button {
+    background-color: #ffa500; /* Laranja */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .tarefa button:hover {
+    background-color: #ff7f00; /* Laranja mais escuro no hover */
+  }
+  

@@ -1,0 +1,89 @@
+/* Estilo geral da aplicação */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e6f7ff; /* Azul claro */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff; /* Branco */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+  color: #ff7f00; /* Laranja */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilização dos elementos de formulário */
+
+input[type="text"] {
+  width: calc(100% - 85px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 85px;
+  padding: 10px;
+  background-color: #4169e1; /* Azul */
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #003366; /* Azul mais escuro no hover */
+}
+
+/* Estilo para a lista de tarefas */
+
+.lista-tarefas {
+  list-style: none;
+  padding: 0;
+}
+
+.tarefa {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f8ff; /* Tom de azul claro */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.tarefa.concluida {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.tarefa span {
+  flex-grow: 1;
+  cursor: pointer;
+}
+
+.tarefa button {
+  background-color: #ffa500; /* Laranja */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tarefa button:hover {
+  background-color: #ff7f00; /* Laranja mais escuro no hover */
+}

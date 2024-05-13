@@ -1,0 +1,31 @@
+.tarefa-form {
+    margin-bottom: 20px;
+    display: flex; /* Exibir em linha */
+    align-items: center; /* Alinhar itens verticalmente */
+  }
+  
+  .tarefa-form input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+  }
+  
+  .tarefa-form button {
+    width: 85px;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 10px 10px 0;
+    background-color: #4169e1; /* Azul */
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .tarefa-form button:hover {
+    background-color: #003366; /* Azul mais escuro no hover */
+  }
+  
